@@ -17,12 +17,17 @@
 # Installation
 
 ```sh
-git clone git@github.com:bugness/query-monitor.git .
+git clone git@github.com:dtyutyunnikov/query-monitor.git .
 cp config.dist.php config.php
 ```
 
 # Using
 
 ```sh
-php -S localhost:8000 > /tmp/web.log &
+php -S localhost:8000 app.php > /tmp/web.log &
 ```
+
+# Credentials
+
+User: admin
+Password: pass
