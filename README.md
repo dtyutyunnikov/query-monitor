@@ -29,5 +29,5 @@ php -S localhost:8000 app.php > /tmp/web.log &
 
 # Credentials
 
-User: admin
-Password: pass
+    User: admin
+    Password: pass
